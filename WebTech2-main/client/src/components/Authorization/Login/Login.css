@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(94vh);
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background-image: linear-gradient(#25c53a, #ffffff);
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.3);
+}
+
+.email-container,
+.password-container {
+    margin: 20px !important;
+    width: 400px;
+}
+
+.register-button {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid rgb(55, 0, 255);
+    border-radius: 8em;
+    color: rgb(55, 0, 255);
+    cursor: pointer;
+    line-height: 2;
+    padding: 0.8em 0.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out;
+}
+
+.register-button:hover {
+    box-shadow: 0 0 25px 25px rgb(55, 0, 255) inset;
+    color: white;
+}
